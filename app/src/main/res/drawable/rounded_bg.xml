@@ -1,0 +1,17 @@
+<!-- rounded_bg.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Sombra -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#40000000" /> <!-- Sombra -->
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+    <!-- Fundo do Cartão -->
+    <item android:top="4dp" android:left="4dp" android:right="4dp" android:bottom="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#002C77" /> <!-- Cor azul do cartão -->
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+</layer-list>
